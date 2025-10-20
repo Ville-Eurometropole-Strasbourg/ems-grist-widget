@@ -1,11 +1,10 @@
 {
     "name": "@ems/widget-nuage-de-mots",
     "description": "Nuage de mots",
-    "homePage": "https://github.com/Ville-Eurometropole-Strasbourg/ems-grist-widget",
-    "version": "0.0.1",
+    "homePage": "https://ville-eurometropole-strasbourg.github.io/ems-grist-widget/nuage-de-mots/",
     "grist": {
       "name": "Nuage de mots",
-      "url": "https://github.com/Ville-Eurometropole-Strasbourg/ems-grist-widget",
+      "url": "https://github.com/Ville-Eurometropole-Strasbourg/ems-grist-widget/tree/main/nuage-de-mots",
       "widgetId": "@ems/widget-nuage-de-mots",
       "published": true,
       "accessLevel": "read table",

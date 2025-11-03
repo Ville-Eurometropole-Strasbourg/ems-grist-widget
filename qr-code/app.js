@@ -43,10 +43,12 @@ grist.onRecord(function (record) {
     content.innerHTML = "";
     content.appendChild(qrcode(QR));
   }
+
+  update_qr();
+
   window.addEventListener("resize", update_qr);
   [sizeInput, colorInput, bgColorInput].forEach((input) => {
     input.addEventListener("change", update_qr);
     input.addEventListener("input", update_qr);
   });
-  update_qr();
 });

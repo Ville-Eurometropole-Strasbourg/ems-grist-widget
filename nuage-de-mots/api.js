@@ -28,7 +28,7 @@ function ready() {
       {
         name: "frequency",
         title: "Fréquence",
-        type: "Numeric",
+        type: "Int",
         optional: true,
       },
       { name: "weight", title: "Poids", type: "Numeric", optional: true },

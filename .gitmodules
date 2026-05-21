@@ -1,0 +1,3 @@
+[submodule "grist-cw-intra-form"]
+	path = grist-cw-intra-form
+	url = https://github.com/gristgouv/grist-cw-intra-form.git

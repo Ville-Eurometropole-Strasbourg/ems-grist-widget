@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gantt - Vue par Mois/Semaines</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      border: 2px solid rgb(140 140 140);
+      font: 16px "Open Sans",
+        "Helvetica",
+        "Arial",
+        sans-serif;
+    }
+
+    th,
+    td {
+      border: 1px solid rgb(160 160 160);
+      padding: 4px 6px;
+    }
+
+    th {
+      vertical-align: center;
+    }
+
+    td.active {
+      background-color: #4A919E;
+      border-left: none;
+      border-right: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1></h1>
+  <div>
+    <label for="start-date">Date de début :</label>
+    <input type="date" id="start-date" name="start-date" />
+    <label for="end-date">Date de fin :</label>
+    <input type="date" id="end-date" name="end-date" />
+  </div>
+  <table>
+    <thead> </thead>
+    <tbody> </tbody>
+  </table>
+</body>
+
+</html>

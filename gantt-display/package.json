@@ -1,0 +1,20 @@
+{
+    "name": "@ems/gantt-display",
+    "description": "Affichage GANTT",
+    "homePage": "https://ville-eurometropole-strasbourg.github.io/ems-grist-widget/gantt-display/",
+    "grist": {
+      "name": "Affichage GANTT",
+      "url": "https://github.com/Ville-Eurometropole-Strasbourg/ems-grist-widget/tree/main/gantt-display",
+      "widgetId": "@ems/gantt-display",
+      "published": true,
+      "accessLevel": "read table",
+      "renderAfterReady": true,
+      "authors": [
+        {
+          "name": "Héloïse Ouvry",
+          "url": "https://github.com/ouvry-ems"
+        }
+      ],
+      "isGristLabsMaintained": false
+    }
+  }
